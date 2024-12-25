@@ -1,0 +1,56 @@
+/* Reset and Base Styling */
+body, h1, p, h2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ddd;
+    background-color: #000; /* Black background */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Canvas5 Showcase Section */
+#canvas5-showcase {
+    text-align: center;
+    color: #fff;
+    max-width: 800px;
+    margin: auto;
+}
+
+#canvas5-showcase h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#canvas5-showcase p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #aaa;
+}
+
+.canvas-container {
+    background-color: #282828; /* Dark gray */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+    width: 500px;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    background-color: #1e1e1e; /* Dark canvas */
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Showcase</title>
+    <link rel="stylesheet" href="html5-2.css">
+</head>
+<body>
+    <!-- Canvas Showcase Section -->
+    <section id="canvas5-showcase">
+        <h1>Canvas5 Showcase</h1>
+        <center><p>3 Examples of interactive and animated visuals using HTML5 Canvas.</p></center>
+
+        <!-- Animation 1: Bouncing Balls -->
+        <div class="canvas-container">
+            <h2>Bouncing Balls</h2>
+            <canvas id="bouncingBallsCanvas"></canvas>
+        </div>
+
+        <!-- Animation 2: Rotating Squares -->
+        <div class="canvas-container">
+            <h2>Rotating Squares</h2>
+            <canvas id="rotatingSquaresCanvas"></canvas>
+        </div>
+
+        <!-- Animation 3: Particle Explosion -->
+        <div class="canvas-container">
+            <h2>Particle Explosion</h2>
+            <canvas id="particleExplosionCanvas"></canvas>
+        </div>
+
+        <!-- Animation 4: Expanding Concentric Circles -->
+        <div class="canvas-container">
+        <h2>Expanding Concentric Circles</h2>
+        <canvas id="expandingCirclesCanvas"></canvas>
+        </div>
+
+        <!-- Animation 5: Wave Motion -->
+        <div class="canvas-container">
+            <h2>Wave Motion</h2>
+            <canvas id="waveMotionCanvas"></canvas>
+        </div>
+
+        <!-- Animation 6: Starfield Simulation -->
+        <div class="canvas-container">
+            <h2>Starfield Simulation</h2>
+            <canvas id="starfieldCanvas"></canvas>
+        </div>
+
+    </section>
+
+    <script src="bouncingBalls-script.js"></script>
+    <script src="rotatingSquares-script.js"></script>
+    <script src="particleExplosion-script.js"></script>
+</body>
+</html>
